@@ -1,0 +1,46 @@
+.addTreeCart {
+  width: 150px;
+  height: 110px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: auto;
+
+  .nodeName {
+    margin-bottom: 12px;
+    input{
+      width: 100px;
+    }
+  }
+  .selfValue{
+    p{
+      display: inline;
+      color: #aaaaaa;
+    }
+    input{
+      display: inline;
+      width: 50px;
+    }
+  }
+  .total{
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  input {
+    margin-left: 5px;
+    border: none;
+    border-bottom: .3px solid black;
+  }
+  button {
+    border: none;
+  }
+  .tirggerButtons{
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+
+    .triggerAdd{
+      background-color: chartreuse;
+    }
+  }
+}
